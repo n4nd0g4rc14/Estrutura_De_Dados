@@ -45,11 +45,11 @@ public class Main {
         // int resultado = ari.pot(valor, potencia);
         // System.out.println(resultado);
 
-        double[] vetim = {1.2, 4.2, 5.7, 8.9, 4.5};
+        double[] vet = {1.2, 4.2, 5.7, 8.9, 4.5};
 
-        ari.mostrarArray(vetim);
-        ari.inverteArray(vetim, 0, vetim.length - 1);
+        ari.mostrarArray(vet);
+        ari.inverteArray(vet, 0, vet.length - 1);
         System.out.println();
-        ari.mostrarArray(vetim);
+        ari.mostrarArray(vet);
     }
 }
